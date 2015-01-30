@@ -1,0 +1,145 @@
+body {
+	width:100%;
+	font-family: "Montserrat", helvetica neue, arial, sans-serif;
+}
+
+.jumbotron {
+	text-align: center;
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),url(./images/stephencurry.jpg);
+    background-size: cover;
+  	background-position: 40% 50%;
+  	/*background-attachment: fixed;*/
+  	color:white;
+  	padding-top: 260px;
+  	padding-bottom: 440px;
+	margin-top:-150px;
+	text-transform: uppercase;
+}
+
+
+.navbar-default {
+	background-color: transparent;
+	border-color:transparent;
+	color:white;
+	padding-top:40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #E0E0E0;
+	/*color:white;*/
+	text-transform: uppercase;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color:white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #E0E0E0;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	text-transform: uppercase;	
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: white;
+	background-color: transparent;
+}
+
+.navbar-nav>li>a {
+	position: relative;
+	display: block;
+	padding-right: 15px;
+}
+
+.navbar {
+	margin-right: 100px;
+	margin-left:100px;
+}
+
+.roster {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.team1, .team2, .team3, .team4, .team5 {
+	text-align: center;
+}
+
+.team1 h2, .team2 h2, .team3 h2, .team4 h2, .team5 h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	color:#191970;
+}
+
+.team1 p, .team2 p, .team3 p, .team4 p, .team5 p {
+	/*text-transform: uppercase;*/
+	font-size: 16px;
+	/*color:#191970;*/
+	padding-bottom: 20px;
+}
+
+.schedule {
+	background-color:#fafafa;
+  	background-size: cover;
+  	background-position: 100% 100%;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.upcomingschedule {
+	padding-bottom:40px;
+	/*margin-bottom: 100px;*/
+	padding-top: 20px;
+	/*border:solid black;*/
+		background-color:#fafafa;
+}
+
+.date {
+	margin-left: 280px;
+	line-height: 60px;
+}
+
+.date p {
+	font-size: 20px;
+}
+
+.awayteam {
+	vertical-align: middle;
+}
+
+.awayteamlogo {
+	margin-right: 50px;
+}
+
+.vs {
+  	line-height: 60px;
+}
+
+.hometeam {
+	vertical-align: middle;
+}
+
+.time {
+	line-height: 60px;
+}
+
+.upcomingschedule1 {
+	padding:20px;
+	/*background-color:#fafafa;*/
+/*  	background-size: cover;
+  	background-position: 100% 100%;*/
+	/*border:solid black;*/
+}
